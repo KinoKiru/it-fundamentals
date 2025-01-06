@@ -1,0 +1,29 @@
+#box {
+    width: fit-content;
+    height: fit-content;
+    margin-left: 20px;
+  }
+
+  #name {
+    background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: color 6s ease-in-out infinite;
+    background-size: 400% 100%;
+    font-size: 5em;
+  }
+
+  @keyframes color {
+    0%,100% {
+          background-position: 0 0;
+      }
+
+      50% {
+          background-position: 100% 0;
+      }
+  }
+
+  .hidden {
+    color: transparent;
+  }
